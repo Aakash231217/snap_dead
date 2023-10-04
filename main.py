@@ -1,4 +1,4 @@
-from cv2 import cv2
+cv2 import cv2
 import  cvzone
 cap = cv2.VideoCapture(0)
 cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
